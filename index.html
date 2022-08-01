@@ -1,43 +1,59 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <title>Eat Green</title>
-        <link rel="stylesheet" href="green.css">
-    </head>
-    <body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width = device-width, initial-scale = 1.0 ">
+<title>Eat Green</title>
+<link rel="stylesheet" href="green.css">
+</head>
+<body>
+<nav>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="veggie.html">Trending-order menu</a></li>
-                <li><a href="testi_id2.html">testimonials</a></li>
-                <li><a href="conta_id3.html">order</a></li>
-                <li><a href="about_id4.html">about us</a></li>
-            </ul>
-            <button class=" rbtn" type="button">MENU</button>
-            <img src="./icons/audio-83573.png" class="icnimg">
-            <img src="./icons/fork-1.png" class="logoimg">
-            <h1 class="hero"><a class="herolink" href="index.html">Veganport</a></h1>
-        </nav>
-        <hr class="hr1">
-        <img src="./images/pexels-alesia-kozik-6544374.jpg" class="peximg">
-    <div id="homepage-claigraph">
-        <h1>Explore<br> green meals</h1>
-        <p>Eat fresh Eat green,
-         Healthy foods. Get a grasp of that savoury
-            vegan meal from us today. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-         Quaerat suscipit porro ab a obcaecati perspiciatis sed, corporis ducimus architecto assumenda similique numquam corrupti! Iste porro error commodi, nam dicta accusantium!
-        </p>
-    </div>
-    <a href="#" onclick="order()" class="linkmenu">Contact us</a>
-    <p id="p-el"></p>
-    <script>
-        let pet = document.getElementById("p-el")
-        let pit = "Right to your order,buddy"
-        function order() {
-         pet.innerHTML += pit
-        }
+<div id="header_div">
+<img src="./icons/fork-1.png" class="logoimg" width="50" height="50">
+<a class="herolink" href="index.html">Veganport</a>
+</div>
 
-    </script>
-    </body>
+<a href="#"  class="toggle-btn">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+</a>
+
+
+<div id="menu-ul" class="for-ul-men">
+<ul>
+<li><a class="nav-link" href="index.html">home</a></li>
+<li><a class="nav-link" href="veggie.html">Trending-order menu</a></li>
+<li><a class="nav-link" href="testi_id2.html">testimonials</a></li>
+<li><a class="nav-link" href="conta_id3.html">order</a></li>
+<li><a class="nav-link" href="about_id4.html">about us</a></li>
+</ul>
+
+<div id="btn_div">
+<img src="./icons/audio-83573.png" class="icnimg" width="30" height="30">
+<button class=" rbtn" type="button">MENU</button>
+</div>
+
+</div>
+
+
+
+</nav>
+
+<section>
+<div id="homepage-claigraph">
+<h1>Explore<br> green meals</h1>
+<p>Eat fresh Eat green,
+Healthy foods. Get a grasp of that savoury
+vegan meal from us today. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Quaerat suscipit porro ab a obcaecati perspiciatis sed, corporis ducimus architecto assumenda similique numquam corrupti! Iste porro error commodi, nam dicta accusantium!
+</p>
+    
+<a href="#" onclick="order()" class="linkmenu">Contact us</a> 
+</div>
+</section>
+
+<script src="eatgreen.js"></script>
+</body>
 </html>
